@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.wapper{
+    text-align: center;
+    background-image: url("https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg");
+    background-repeat: no-repeat;
+    min-height: 710px;
+    background-position: center;
+    min-width: 300px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    background-size: cover;
+    position: relative;
+    overflow:hidden;
+}
+.gamename{
+    color: white;
+    margin-left: 25px ;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 55vh;
+    width: 30vw;
+    margin-left : 540px;
+    margin-top: 50px;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px 4px rgb(167, 182, 228);
+}
+#ball{
+    margin-top: 40px;
+    cursor: pointer;
+    margin-left:20px
+
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    margin-right: 30px;
+}
+
+.score-table{
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 50px;
+}
+.computer-move{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.resetbtn{
+  margin-left: 57px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.score{
+    background-color: rgb(150, 160, 171);
+    max-width: 20rem;
+    max-height: 40px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding:5px 0px 20px 0px;
+}
